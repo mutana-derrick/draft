@@ -1,5 +1,6 @@
 // ignore_for_file: unused_field
 
+import 'package:abbyride/styles/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -159,7 +160,9 @@ class _LoginPageState extends State<LoginPage> {
                 // Forgot Password Text
                 const Text(
                   'Forgot Password?',
-                  style: TextStyle(color: Colors.blue),
+                  style: TextStyle(
+                    color: AppColors.blue,
+                  ),
                 ),
                 const SizedBox(height: 20.0),
 
@@ -182,7 +185,7 @@ class _LoginPageState extends State<LoginPage> {
                               5.0), // Set small border radius
                         ),
                         backgroundColor:
-                            Colors.blue, // Set blue background color
+                            AppColors.blue, // Set blue background color
                         foregroundColor: Colors.white, // Set white text color
                       ),
                       child: const Text('Log In'),
@@ -192,7 +195,7 @@ class _LoginPageState extends State<LoginPage> {
                     const Text(
                       'Create Account',
                       style: TextStyle(
-                        color: Colors.black,
+                        color: AppColors.black,
                       ),
                     ),
                   ],
