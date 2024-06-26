@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "308624487050",
+    "project_id": "authentication-f1dc2",
+    "storage_bucket": "authentication-f1dc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308624487050:android:6053121ec337f0d2adf373",
+        "android_client_info": {
+          "package_name": "com.example.abbyride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308624487050-5lpmk7edfb5b4874pkv0ud1j0dg897ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdlyue6ZS5yWlKtN7w-RlHmG2a3xF3IZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308624487050-5lpmk7edfb5b4874pkv0ud1j0dg897ue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308624487050-oieg4s7rjpbtp1at15b2v329akhbp803.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.abbyride"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
